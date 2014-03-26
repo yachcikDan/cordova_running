@@ -1,97 +1,11 @@
 @import "bootstrap";
 
+body {
+	padding-top: 70px;
+	width: 80%;
+	margin: auto;
+}
+
 html {
 	background-color: #cdd0d7;
 }
-
-a {
-	color: white;
-	&:hover {
-		color: orange;
-	};
-}
-
-//navbar
-$navbar-inverse-bg: #7F00FF;
-$navbar-inverse-border: #7F00FF;
-$navbar-fixed-top:  #7F00FF;
-
-// Inverse navbar
-.navbar-inverse .container {
-background-color: $navbar-inverse-bg;
-border-color: $navbar-inverse-border;
-}
-
-body {
-	padding-top: 140px;
-	width: 66.9%;
-	margin: auto;
-}
-
-.container {
-	width: 100%;
-	margin: auto;
-}
-
-//Title in header
-#logo {
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  font-size: 2.5em;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-  padding-top: 9px;
-  font-weight: bold;
-  line-height: 1;
-  padding-top: 40px;
-  padding-bottom: 30px;
-  &:hover {
-    color: #fff;
-    text-decoration: none;
-  }
-}
-
-#test {
-	margin: auto;
-}
-
-//List on the home page
-.homeList {
-	width: 90%;
-	margin: auto;	
-}
-
-//philosopy content on the home page
-.pContent {
-	width: 90%;
-	margin: auto;
-}
-
-//h3 tags on the home page
-.sectionHeadings {
-	margin-left: 15px;
-}
-
-footer {
-	height: 75px;
-	background-color: #7F00FF;
-	margin-top: 20px;
-}
-
-//footer nav links
-#footerList {
-  float: right;
-  list-style: none;
-  padding-top: 25px;
-  li {
-    float: left;
-    margin-left: 15px;
-    padding-right: 15px;
-    color: #fff;
-    font-size: 1em;
-  }
-}
-
-
