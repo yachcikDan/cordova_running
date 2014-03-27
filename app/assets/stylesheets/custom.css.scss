@@ -12,10 +12,6 @@ background-color: $navbar-inverse-bg;
 border-color: $navbar-inverse-border;
 }
 
-
-
-
-
 body {
 	padding-top: 70px;
 	width: 80%;
@@ -32,16 +28,29 @@ html {
 	color: white;
 }
 
+.nav-pills .active > a { 
+
+	color: black;
+	background-color: white;
+}
+
+.nav-pills .active > a:hover {
+	color: white;
+	background-color: #7F00FF;	
+}
+
 #logo {
   float: left;
   margin-right: 10px;
-  font-size: 1.7em;
+  font-family: capitals;
+  font-size: 3em;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
   line-height: 1;
+  text-align: center;
   &:hover {
     color: #fff;
     text-decoration: none;
@@ -57,12 +66,15 @@ footer {
   a {
     color: #555;
     &:hover {
+	
       color: #7F00FF;
     }
   }
   ul {
     float: right;
     list-style: none;
+    margin-right: 10px;
+    padding-top: 10px;
     li {
       float: left;
       margin-left: 10px;
