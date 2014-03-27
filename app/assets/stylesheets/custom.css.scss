@@ -23,20 +23,9 @@ html {
 }
 
 //Header Style
-
 .navbar .nav > li > a {
 	color: white;
-}
-
-.nav-pills .active > a { 
-
-	color: black;
-	background-color: white;
-}
-
-.nav-pills .active > a:hover {
-	color: white;
-	background-color: #7F00FF;	
+	padding-top: 20px;
 }
 
 #logo {
@@ -44,10 +33,11 @@ html {
   margin-right: 10px;
   font-family: capitals;
   font-size: 3em;
+  font-style: italic;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: -1px;
-  padding-top: 9px;
+  padding-top: 20px;
   font-weight: bold;
   line-height: 1;
   text-align: center;
@@ -65,9 +55,9 @@ footer {
   background-color: #7F00FF;
   a {
     color: #555;
+    text-align: center;
     &:hover {
-	
-      color: #7F00FF;
+    color: #7F00FF;
     }
   }
   ul {
@@ -76,8 +66,20 @@ footer {
     margin-right: 10px;
     padding-top: 10px;
     li {
-      float: left;
-      margin-left: 10px;
+      margin-left: 20px;
     }
   }
+}
+
+//  Footer Nav Links
+.nav-pills .active > a { 
+
+	color: black;
+	background-color: white;
+	margin: auto;
+}
+
+.nav-pills .active > a:hover {
+	color: white;
+	background-color: #7F00FF;	
 }
