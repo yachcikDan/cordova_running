@@ -2,7 +2,7 @@ class StaticPagesController < ApplicationController
   def Home
   end
 
-  def Training_Plans
+  def Training_Programs
   end
 
   def About

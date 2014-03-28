@@ -2,7 +2,8 @@
 @import "bootstrap";
 
 html {
-	background-color: #cdd0d7;
+	background-color:  #696969;
+	background: url('/assets/seamless_asphalt_texture.jpg');
 }
 
 //navbar
@@ -26,16 +27,24 @@ body {
 .center {
 	text-align: center;
 	//background-color: #66CCCC; 
-	h1 {
-		
-		
-	}
-	
+}
+
+.price {
+	font-weight: bold;
+	color: red;
 }
 
 strong {
-	font-size: 1.25em;
+	font-size: 1em;
 	text-transform: uppercase;
+}
+
+label {
+	padding: 5px 5px 5px 5px;
+}
+
+#season {
+	color: green;
 }
 
 
