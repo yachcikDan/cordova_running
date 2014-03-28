@@ -1,10 +1,15 @@
 
 @import "bootstrap";
 
+html {
+	background-color: #cdd0d7;
+}
+
 //navbar
 $navbar-inverse-bg: #7F00FF;
 $navbar-inverse-border: #7F00FF;
 $navbar-fixed-top:  #7F00FF;
+
 
 // Inverse navbar
 .navbar-inverse .container-fluid {
@@ -14,14 +19,34 @@ border-color: $navbar-inverse-border;
 
 body {
 	padding-top: 70px;
-	width: 60%;
+	width: 80%;
 	margin: auto;
 }
 
-html {
-	background-color: #cdd0d7;
+.center {
+	text-align: center;
+	//background-color: #66CCCC; 
+	h1 {
+		
+		
+	}
+	
 }
 
+strong {
+	font-size: 1.25em;
+	text-transform: uppercase;
+}
+
+
+
+
+
+/*Home Page styling*/
+
+.span6 {
+	margin-bottom: 20px;
+}
 //Header Style
 .navbar .nav > li > a {
 	color: white;
@@ -32,12 +57,12 @@ html {
   float: left;
   margin-right: 10px;
   font-family: capitals;
-  font-size: 2em;
+  font-size: 1.7em;
   font-style: italic;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: -1px;
-  padding-top: 20px;
+  padding-top: 15px;
   font-weight: bold;
   line-height: 1;
   text-align: center;
@@ -76,7 +101,7 @@ footer {
 
 	color: black;
 	background-color: white;
-	margin: auto;
+	
 }
 
 .nav-pills .active > a:hover {

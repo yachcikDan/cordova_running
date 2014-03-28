@@ -10,9 +10,11 @@
     <%= render 'layouts/shim' %>
   </head>
   <body>
-    <%= render 'layouts/header' %>
     <div class="container-fluid">
+    	<%= render 'layouts/header' %>
+    </div>
       <%= yield %>
+    <div class="container-fluid">
       <%= render 'layouts/footer' %>
     </div>
   </body>
