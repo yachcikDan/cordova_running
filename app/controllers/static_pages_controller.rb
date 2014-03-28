@@ -2,10 +2,10 @@ class StaticPagesController < ApplicationController
   def Home
   end
 
-  def Videos
+  def Training_Plans
   end
 
-  def Bio
+  def About
   end
 
   def Contact
