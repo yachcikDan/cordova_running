@@ -82,7 +82,9 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
-  background-color: #7F00FF;
+  border-top: solid;
+  border-top-color: #7F00FF;
+ 
   a {
     color: #555;
     text-align: center;
@@ -91,17 +93,15 @@ footer {
     }
   }
   ul {
-    float: right;
     list-style: none;
-    margin-right: 10px;
     padding-top: 10px;
-    li {
-      margin-left: 20px;
-    }
   }
 }
 
 //  Footer Nav Links
+.nav-pills {
+	display: inline-block;	
+}
 .nav-pills .active > a { 
 
 	color: black;
@@ -113,3 +113,13 @@ footer {
 	color: white;
 	background-color: #7F00FF;	
 }
+
+.center-pills li {
+	padding-left: 20px;
+}
+
+
+
+
+
+
