@@ -101,7 +101,17 @@ footer {
 
 //  Footer Nav Links
 .nav-pills {
-	display: inline-block;	
+	display: inline-block;
+	margin-top: 10px;	
+}
+
+#paypal {
+	float: left;
+	margin-top: -7.5px;
+}
+
+#facebook {
+	float: right;
 }
 
 .nav-pills .active > a { 
