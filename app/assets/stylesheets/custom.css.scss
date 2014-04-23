@@ -64,8 +64,18 @@ label {
 	text-align: center;
 }
 
-.span6 {
+.span4{
 	margin-bottom: 20px;
+}
+
+.span8 {
+	margin-top: -350px;
+}
+
+.sectionHeadings {
+	font-size: 16pt;
+	font-weight: bold;
+	text-align: center;
 }
 //Header Style
 .navbar .nav > li > a {
@@ -75,12 +85,11 @@ label {
 
 #logo {
   float: left;
-  font-family: capitals;
+  font-family: ChalkboardSE;
   font-size: 1.7em;
  // font-style: italic;
   color: #fff;
-  text-transform: uppercase;
-  letter-spacing: -1px;
+ // letter-spacing: -.5px;
   padding-top: 15px;
   font-weight: bold;
   line-height: 1;
@@ -118,7 +127,7 @@ footer {
   }
 }
 
-//  Footer Nav Links
+//  Footer nav links
 .nav-pills {
 	display: inline-block;
 	margin-top: 10px;	
