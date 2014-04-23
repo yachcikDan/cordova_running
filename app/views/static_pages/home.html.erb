@@ -3,25 +3,52 @@
 </div>
 
 <div class="container-fluid">
+	<%= render 'layouts/addressDiv' %>
+	<div class="center hero-unit">
+		<p class="opening">Are you new to running?</p>
+		<p class="opening">Want to take your running to the next level?<p>
+		<p class="opening">Looking for a new running challenge? (maybe a half or full marathon)</p>
+		<p class="opening">Perhaps your trying to improve your running performance times/set a new PR?</p>
+		<h3> Next Level Distance Running can help you achieve these goals!</h3>
+	</div>
 	<div class="row-fluid">
 		<div class="span6">
+			<%= image_tag("Marathon_training_stairs01.jpg", :id=> "stairRunner") %>
+			<p id="homeCaption">Photo by Jeff Miller, 2001     © Board of Regents of the 
+				University of Wisconsin System
+			</p>
+		</div>
+		<div class="span6">
 			<h3 class="text-center">My Training Philosophy</h3>
-
+		
 			<p>As your trainer, my goal is to assist you in accomplishing your goals as a long distance runner.  
 				I wish to provide you with the habits to 
 				maintain good health and a high quality of life.
 			</p>
 
-			<p>The key to achieving your goals as a long distance runner is to focus on the training process.  
-				An individual's training program should be a process that can be enjoyed and also provide
-       			the preparation needed to complete a targeted event.  I will provide you with an educational 
-				and positive training experience that will keep you participating.
+			<p> An individual's training program should be a process that can be enjoyed and also provide
+       			the preparation needed to complete a targeted event.  The key to achieving 
+				your goals as a long distance runner is to focus on the training process.  I will 
+				provide you with an educational and positive training experience that will keep 
+				you participating.
 			</p>
 		</div>
 
 	
-		<div class="span6">
-			<h3 class="text-center">The Right Choice</h3>
+		<div class="span12">
+			<h3 class="text-center">Why You Should Choose Next Level Distance Running</h3>
+			<p>Why might you need a trainer?</p>
+			<p>How can a trainer help you?</p>
+			<p>What a trainer can do for you</p>
+			<p>Invest in yourself!  Your time commitment and race entry fee, especially for a 
+				half or full marathon, are significant. You want to get the most out of your 
+				investment to have a positive race experience and achieve your goals.
+			</p>
+			<p>With Next Level Distance Running, you will receive training services from an 
+				experienced, successful distance running coach.  For more information on Ronnie
+				Carda please visit the<strong><%= link_to "  About The Trainer",    about_path %></strong>
+				page.
+			</p>
 
 			<ul>
       				<li>Training individuals for running events for many years</li>
@@ -32,6 +59,7 @@
   	     	      	     	      doing what you are doing in your training</li>
 			</ul>
 		</div>
+	
 	</div>
 </div>
 
