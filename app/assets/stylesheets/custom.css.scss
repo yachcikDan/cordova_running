@@ -27,7 +27,6 @@ body {
 
 .center {
 	text-align: center;
-	//background-color: #66CCCC; 
 	border: solid;
 }
 
@@ -71,7 +70,7 @@ label {
 .sectionHeadings {
 	font-size: 13pt;
 	font-weight: bold;
-	//text-align: center;
+	
 }
 //Header Style
 .navbar .nav > li > a {
@@ -83,9 +82,7 @@ label {
   float: left;
   font-family: ChalkboardSE;
   font-size: 1.7em;
- // font-style: italic;
   color: #fff;
- // letter-spacing: -.5px;
   padding-top: 15px;
   font-weight: bold;
   line-height: 1;
@@ -96,9 +93,11 @@ label {
   }
 }
 
+//Title art
 #titleText {
-	width: 100%;
-	margin: auto;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 // Footer
