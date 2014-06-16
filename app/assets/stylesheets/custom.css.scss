@@ -5,16 +5,12 @@ html {
 	background: url('/assets/seamless_asphalt_texture.jpg');
 }
 
-//navbar
-$navbar-inverse-bg: #7F00FF;
-$navbar-inverse-border: #7F00FF;
-$navbar-fixed-top:  #7F00FF;
-
-
-// Inverse navbar
-.navbar-inverse .container-fluid {
-background-color: $navbar-inverse-bg;
-border-color: $navbar-inverse-border;
+.navbar {
+	.navbar-inner {
+		background: url('/assets/navbar_background.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 }
 
 body {
