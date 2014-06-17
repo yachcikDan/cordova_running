@@ -3,6 +3,7 @@
 
 html {
 	background: url('/assets/seamless_asphalt_texture.jpg');
+	
 }
 
 .navbar {
@@ -14,11 +15,10 @@ html {
 }
 
 body {
-	padding-top: 110px;
+	padding-top: 90px;
 	width: 70%;
 	margin: auto;
 	margin-bottom: 50px;
-	
 }
 
 .center {
@@ -78,6 +78,8 @@ label {
 }
 //Header Style
 .navbar .nav > li > a {
+	font-family: adobe caslon pro, serif;
+	font-size: 12pt;
 	color: white;
 }
 
@@ -90,6 +92,11 @@ label {
 	width: 80%;
 	margin-left: 10%;
 	margin-right: 10%;
+}
+
+.artTitle {
+	background-color: black;
+	padding: 10px;
 }
 
 // Footer
