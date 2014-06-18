@@ -13,4 +13,19 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
+//= require jquery.lettering
+//= require jquery.textillate
+(function($) {
+	$(document).ready(function () {
+		$(".opening").textillate({
+			initialDelay: 2000,
+			in: {
+				effect: "rotateIn",
+				sync: true,
+				delayScale: 1.5,
+				delay: 50,
+				sequence: true
+			}
+		})
+	})
+})(jQuery);
