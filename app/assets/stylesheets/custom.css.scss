@@ -2,9 +2,9 @@
 @import "bootstrap";
 
 html {
-	background: url('/assets/pebbles_rocks_stones.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
+	background: url('/assets/black_road_surface_208169.jpg');
+	//background-repeat: no-repeat;
+	//background-size: cover;
 }
 
 .navbar {
@@ -28,7 +28,8 @@ body {
 }
 
 .opening {
-	font-size: 12pt;
+	font-size: 13pt;
+	font-weight: bold;
 	//visibility: hidden;
 }
 .price {
@@ -56,12 +57,11 @@ label {
 /*Home Page styling*/
 
 .hero-unit {
-	//background: url('/assets/navbar_background.png');
-	background-color: black;
+	background: url('/assets/navbar_background.png');
+	//background-color: black;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	color: white;
 	//font-weight: bold;
 }
 
