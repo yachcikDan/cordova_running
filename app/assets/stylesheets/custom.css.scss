@@ -2,8 +2,9 @@
 @import "bootstrap";
 
 html {
-	background: url('/assets/seamless_asphalt_texture.jpg');
-	
+	background: url('/assets/pebbles_rocks_stones.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .navbar {
