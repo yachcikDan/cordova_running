@@ -17,15 +17,70 @@
 //= require jquery.textillate
 (function($) {
 	$(document).ready(function () {
-		$(".opening").textillate({
-			initialDelay: 2000,
-			in: {
-				effect: "rotateIn",
-				sync: true,
-				delayScale: 1.5,
-				delay: 50,
-				sequence: true
-			}
-		})
+		
 	})
 })(jQuery);
+
+function makePara() {
+	var p1 = $("<p>");
+	p1.text("Are you new to running?");
+	p1.css("color", "white");
+	$("#text").append(p1);
+}
+
+function startTextillate() {
+	$("#new").textillate({
+		initialDelay: 500,
+		in: {
+			effect: "fadeIn",
+			delayScale: 3,
+			delay:25,
+			sync: false,
+			sequence: true
+		}
+	})
+	
+	$("#nextLevel").textillate({
+		initialDelay: 1500,
+		in: {
+			effect: "fadeIn",
+			delayScale: 3,
+			delay:25,
+			sync: false,
+			sequence: true
+		}
+	})
+	
+	$("#challenge").textillate({
+		initialDelay: 3000,
+		in: {
+			effect: "fadeIn",
+			delayScale: 3,
+			delay:25,
+			sync: false,
+			sequence: true
+		}
+	})
+	
+	$("#performance").textillate({
+		initialDelay: 4500,
+		in: {
+			effect: "fadeIn",
+			delayScale: 3,
+			delay:25,
+			sync: false,
+			sequence: true
+		}
+	})
+	
+	$("#distance").textillate({
+		initialDelay: 6000,
+		in: {
+			effect: "fadeIn",
+			delayScale: 3,
+			delay:25,
+			sync: false,
+			sequence: true
+		}
+	})
+}

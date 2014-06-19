@@ -28,8 +28,8 @@ body {
 
 .opening {
 	font-size: 12pt;
+	//visibility: hidden;
 }
-
 .price {
 	font-weight: bold;
 	color: red;
@@ -55,11 +55,13 @@ label {
 /*Home Page styling*/
 
 .hero-unit {
-	background: url('/assets/winding_road.jpg');
+	//background: url('/assets/navbar_background.png');
+	background-color: black;
 	background-size: 100%;
 	background-repeat: no-repeat;
+	background-size: cover;
 	color: white;
-	
+	//font-weight: bold;
 }
 
 #homeCaption {
