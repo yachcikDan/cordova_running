@@ -13,11 +13,15 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//=require bootstrap
 //= require jquery.lettering
 //= require jquery.textillate
 (function($) {
 	$(document).ready(function () {
-		
+		$("#homestyle a").click(function (e) {
+		  e.preventDefault()
+		  $(this).tab("show")
+		})
 	})
 })(jQuery);
 
