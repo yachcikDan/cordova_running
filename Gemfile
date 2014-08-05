@@ -9,9 +9,13 @@ gem 'rails', '4.0.3'
 gem 'pg'
 
 # Use SCSS for stylesheets
+gem 'sass-rails', '~> 4.0.3'
+gem 'twitter-bootstrap-rails'
 gem 'sprockets', '2.11.0'
-gem 'bootstrap-sass', '2.3.2.0'
-gem 'sass-rails', '~> 4.0.0'
+gem 'bootstrap-sass', '~> 3.2.0.0'
+gem "therubyracer"
+gem "less-rails"
+gem "bootstrap-sass-extras"
 gem 'twitter-bootstrap-calendar', '~> 0.0.2'
 
 # Use Uglifier as compressor for JavaScript assets
@@ -38,6 +42,9 @@ group :doc do
 end
 
 gem 'rails_12factor', group: :production
+
+# Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+gem 'spring',        group: :development
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'

@@ -1,170 +1,29 @@
 
 @import "bootstrap";
 
-html {
-	background: url('/assets/asphalt_texture430.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
+#artContainer {
+	background-color: #000;
 }
 
 .navbar {
-	.navbar-inner {
-		background: url('/assets/navbar_background.png');
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
+	background-color: transparent;
+	border: none;
 }
 
-body {
-	padding-top: 62px;
-	width: 70%;
-	margin: auto;
-	margin-bottom: 50px;
+.navbar-toggle {
+	background-color: #fff;
+	
 }
 
-.center {
+.logo {
 	text-align: center;
-	border: solid;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 
-.opening {
-	font-size: 13pt;
-	font-weight: bold;
-	//visibility: hidden;
-}
-.price {
-	font-weight: bold;
-	color: red;
-}
-
-strong {
-	font-size: 1em;
-	text-transform: uppercase;
-}
-
-label {
-	padding: 5px 5px 5px 5px;
-}
-
-#address {
-	border-top: solid;
-	border-bottom: solid;
-	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	border-width: 1px;
-}
-/*Home Page styling*/
-
-.hero-unit {
-	background: url('/assets/jumbotron_bg.png');
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	//font-weight: bold;
-}
-
-#homeCaption {
-	font-size: 8pt;
-	text-align: center;
-}
-
-.span4{
-	margin-bottom: 20px;
-}
-
-.sectionHeadings {
-	font-size: 16pt;
-	font-weight: bold;	
-}
-
-#homePackages {
-	margin-top: 20px;
-}
-//Header Style
-.navbar .nav > li > a {
-	font-family: adobe caslon pro, serif;
-	font-size: 12pt;
-	color: white;
-}
-
-#logo {
-  float: left;
-}
-
-span {
-	font-weight: bold;
-	font-size: 12pt;
-	color: red;
-}
-
-//Title art
-#titleText {
-	width: 80%;
-	margin-left: 10%;
-	margin-right: 10%;
-}
-
-.artTitle {
-	background-color: black;
-	padding: 10px;
-}
-
-// Footer
-footer {
-  margin-top: 45px;
-  padding-top: 5px;
-  border-top: 1px solid #eaeaea;
-  border-top: solid;
-  border-top-color: #7F00FF;
- 
-  a {
-    color: #555;
+@media (max-width: 768px){
+  .navbar-nav li{
     text-align: center;
-    &:hover {
-    color: #7F00FF;
-    }
+	display: block;
   }
-  
-  ul {
-    list-style: none;
-    padding-top: 10px;
-  }
-}
-
-//  Footer nav links
-.nav-pills {
-	display: inline-block;
-	margin-top: 10px;	
-}
-
-#paypal {
-	float: left;
-	margin-top: -7.5px;
-}
-
-#facebook {
-	float: right;
-}
-
-.nav-pills .active > a { 
-
-	color: black;
-	background-color: white;
-	
-}
-
-.nav-pills .active > a:hover {
-	color: white;
-	background-color: #7F00FF;	
-}
-
-.center-pills > li {
-	padding-left: 20px;
-	
-}
-
-//About the Trainer Stylings
-#credentials {
-	margin-top: 20px;
 }
