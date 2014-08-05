@@ -3,6 +3,7 @@
 
 #artContainer {
 	background-color: #000;
+	padding-top: 10px;
 }
 
 .navbar {
@@ -18,12 +19,15 @@
 .logo {
 	text-align: center;
 	padding-bottom: 10px;
-	padding-top: 10px;
 }
 
-@media (max-width: 768px){
-  .navbar-nav li{
-    text-align: center;
-	display: block;
-  }
+//changes the default color of the header nav links to white
+.navbar-inverse .navbar-collapse .navbar-nav > li > a {
+	color: #fff;
 }
+
+.navbar-inverse .navbar-collapse .navbar-nav > li > a:hover {
+	color: #27e1e1;
+};
+
+
