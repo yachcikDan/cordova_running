@@ -1,33 +1,46 @@
 
 @import "bootstrap";
 
+//Contains the header nav links, logo and address in one row
 #artContainer {
-	background-color: #000;
+	//background-color: #000;
+	//padding-top: 10px;
+	background: url("/assets/navbar_background.png") no-repeat center;
+	background-size: cover;
 	padding-top: 10px;
+	border: solid;
 }
 
+//Navbar
 .navbar {
 	background-color: transparent;
 	border: none;
 }
 
-.navbar-toggle {
-	background-color: #fff;
-	
+//Address in header
+#tester {	
+	text-align: center;
+	margin: auto;
 }
 
-.logo {
-	text-align: center;
-	padding-bottom: 10px;
+//The NLDR logo inside the div
+#art {
+	margin: auto;
 }
 
 //changes the default color of the header nav links to white
-.navbar-inverse .navbar-collapse .navbar-nav > li > a {
+.navbar-default .navbar-collapse .navbar-nav > li > a {
 	color: #fff;
+	text-shadow: none;
 }
 
-.navbar-inverse .navbar-collapse .navbar-nav > li > a:hover {
+//On hover changes to color
+.navbar-default .navbar-collapse .navbar-nav > li > a:hover {
 	color: #27e1e1;
-};
+}
+
+.col-md-6 {
+	border: solid;
+}
 
 
