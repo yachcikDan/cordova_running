@@ -14,7 +14,7 @@ body {
 
 #artContainer {
 	background-color: #000;
-	//background: url("/assets/navbar_background.png") no-repeat center;
+	//background: url("/assets/leaves.jpg") no-repeat center;
 	//background-size: cover;
 	padding-top: 10px;
 }
@@ -41,6 +41,10 @@ body {
 	text-align: center;	
 }
 
+.sectionHeadings {
+	
+}
+
 //changes the default color of the header nav links to white
 .navbar-default .navbar-collapse .navbar-nav > li > a {
 	color: #fff;
@@ -55,10 +59,8 @@ body {
 /*Home Page stylings*/
 .mainContainer {
 	background-color: #fff;
+	padding-top: 20px;
 }
 
-row {
-	text-align: center;
-}
 
 
