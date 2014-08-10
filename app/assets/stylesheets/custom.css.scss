@@ -29,20 +29,13 @@ body {
 	background-color: #fff;
 }
 
-//Address in header
-#tester {	
-	text-align: center;
-	margin: auto;
-	padding:8px;
-}
-
 //The NLDR logo inside the div
 #art {
 	text-align: center;	
 }
 
-.sectionHeadings {
-	
+#payment {
+	color: #fff;
 }
 
 //changes the default color of the header nav links to white
@@ -62,19 +55,30 @@ body {
 	padding-top: 20px;
 }
 
-#homestyle {
+#home-tabs {
 	padding-top: 20px;
 }
 
-.tabContentHeadings {
-	//color: red;
-}
-
 .facebook-paypal-links {
-	padding: 10px;
+	padding: 20px;
 }
 
 #location {
 	color: white;
 	letter-spacing: 3px;
 }
+
+table {
+	float: left;
+}
+
+.tabContentHeadings {
+	background-color: #5cb85c;
+	color: #fff;
+}
+
+.runningPic {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+

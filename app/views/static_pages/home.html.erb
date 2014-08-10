@@ -1,7 +1,7 @@
 <div class="container mainContainer">
 	<div class="row-fluid">
 		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
-			<h3 class="sectionHeadings">My Training Philosophy</h3>
+			<h4 class="sectionHeadings lead text-center">My Training Philosophy</h4>
 		
 			<p>As your trainer, my objective is to assist you in accomplishing your distance 
 				running goals.  Although my focus is on training individuals for the half and full 
@@ -21,19 +21,19 @@
 		</div>
 		
 		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 runningPic">
-			<%= image_tag("runner_jogging_morning.jpg", :class => "img-rounded") %>
+			<%= image_tag("landscape_mountains_sky.jpg", :class=> "img-circle") %>
 		</div>
 	</div>
 	
 	<div class="row-fluid">	
-		<ul class="nav nav-tabs" id="homestyle">
+		<ul class="nav nav-tabs" id="home-tabs">
 			<li class="active">
-				<a href="#nldr" data-toggle="tab" class="tabContentHeadings bg-primary">
+				<a href="#nldr" data-toggle="tab" class="tabContentHeadings">
 					Next Level Distance Running - The Right Choice
 				</a>
 			</li>
 			<li>
-				<a href="#packages" data-toggle="tab" class="tabContentHeadings bg-primary">
+				<a href="#packages" data-toggle="tab" class="tabContentHeadings">
 					Packages Offered
 				</a>
 			</li>
@@ -43,10 +43,7 @@
 			<div class="tab-pane active" id="nldr">
 				<div class="row-fluid">
 					<div class="col-lg-12" id="choice">
-						<h3 class="sectionHeadings">
-							Next Level Distance Running - The Right Choice
-						</h3>
-						<p><strong>Why might you need a trainer?</strong><br />
+						<p><strong >Why might you need a trainer?</strong><br />
 							There are a number of reasons that individuals obtain a trainer's 
 							assistance.  A trainer can provide the needed structure or 
 							direction in your training.  A trainer can provide the needed 
@@ -68,21 +65,27 @@
 							run, you should know what you are trying to accomplish in this 
 							workout and this can occur with the help of a trainer.
 						</p>
-						<p><strong>What a trainer can do for you</strong><br />A trainer can make the training more enjoyable.  
-							A trainer can take your feedback and utilize this to develop workouts that meet 
-							your specific needs.  A trainer can analyze your running form and make 
-							suggestions on how to improve your running economy.  A trainer can identify 
-							appropriate paces for a variety of workouts and running distance.  A trainer can 
-							provide helpful suggestions for race pace and race strategy so you will get the 
-							most from your training and event experience.
+						<p><strong>What a trainer can do for you</strong><br />
+							A trainer can make training more enjoyable.  Your feedback will be 
+							utilized to develop workouts that meet your specific needs.  A 
+							trainer can analyze your running form and 
+							make suggestions on how to improve your running economy.  A 
+							trainer can identify appropriate paces for a variety of workouts 
+							and running distance.  A trainer can provide helpful suggestions 
+							for race pace and race strategy so you will get the most from your 
+							training and event experience.
 						</p>
-						<p><span>Invest in yourself!</span>  Your time commitment and race entry fee, especially for a 
-							half or full marathon, are significant. You want to get the most out of your 
-							investment to have a positive race experience and achieve your goals.
+						<p><span>Invest in yourself!</span>  Your time commitment and 
+							race entry fee, especially for a half or full marathon, are significant. 
+							You want to get the most out of your investment to have a positive 
+							race experience and achieve your goals.
 						</p>
-						<p>With Next Level Distance Running, you will receive training services from an 
-							experienced, successful distance running coach.  For more information on Ronnie
-							Carda please visit the<strong><%= link_to "  About The Trainer",    about_path %></strong>
+						<p>With Next Level Distance Running, you will receive training services 
+							from an experienced, successful distance running coach.  For 
+							more information on Ronnie Carda please visit the
+							<strong>
+								<%= link_to "  About the Trainer",    about_path %>
+							</strong>
 							page.
 						</p>
 
@@ -108,8 +111,6 @@
 			<div class="tab-pane" id="packages">
 				<div class="row-fluid">
 					<div class="col-xs-12">
-						<h4 class="sectionHeadings">Packages Offered</h4>
-
 						<p><strong>Online Training Program</strong><br />
 							The Online Training Package is an excellent choice for runners 
 							seeking to reach the next level on their own.  This package offers 
