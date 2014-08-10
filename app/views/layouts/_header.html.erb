@@ -1,27 +1,36 @@
 <div class="container" id="artContainer">
 	<div class="row-fluid">
 		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-			<%= image_tag("FB_FindUsOnFacebook-100.png") %>
-			<!-- PayPal Logo -->
-			<table border="0" cellpadding="10" cellspacing="0">
-				<tr><td align="center"></td></tr>
-				<tr><td align="center">
-						<a href="https://www.paypal.com/uk/webapps/mpp/paypal-popup" 
-						title="How PayPal Works" 
-						onclick="javascript:window.open('https://www.paypal.com/uk/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;">
-							<img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" 
-							border="0" alt="PayPal Logo">
-						</a>
-					</td>
-				</tr>
-			</table>
-			<!-- PayPal Logo -->
-		</div>
-		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="logoDiv">
-			<%= image_tag("nldr_text2.png", :id=> "art") %>
-		</div>
-		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 pull-right">
 			<%= render 'layouts/menu' %>
 		</div>
+			
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="logoDiv">
+			<%= image_tag("nldr_text2.png", :id=> "art") %>
+			<h5 class="text-center text-uppercase" id="location">Madison, Wisconsin</h5>
+		</div>
+			
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center">
+			<div class="facebook-paypal-links col-xs-12">
+				<%= image_tag("FB-f-Logo__blue_100.png") %>
+			</div>
+			<div class="facebook-paypal-links col-xs-12">
+				
+				<!-- PayPal Logo -->
+				<table border="0" cellpadding="10" cellspacing="0" align="center">
+					<tr><td align="center"></td></tr>
+					<tr><td align="center">
+							<a href="https://www.paypal.com/uk/webapps/mpp/paypal-popup" 
+							title="How PayPal Works" 
+							onclick="javascript:window.open('https://www.paypal.com/uk/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;">
+								<img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" 
+								border="0" alt="PayPal Logo">
+							</a>
+						</td>
+					</tr>
+				</table>
+				<!-- PayPal Logo -->
+			</div>
+		</div>
+		
 	</div>
 </div>
