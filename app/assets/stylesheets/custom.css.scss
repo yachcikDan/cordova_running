@@ -53,7 +53,7 @@ body {
 
 //On hover changes to color
 .navbar-default .navbar-collapse .navbar-nav > li > a:hover {
-	color: #27e1e1;
+	color: #5bc0de;
 }
 
 /*Home Page stylings*/
@@ -62,5 +62,10 @@ body {
 	padding-top: 20px;
 }
 
+#homestyle {
+	padding-top: 20px;
+}
 
-
+.tabContentHeadings {
+	//color: red;
+}
