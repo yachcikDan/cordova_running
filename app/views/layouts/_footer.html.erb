@@ -1,16 +1,18 @@
-<footer>
-	<nav>
-    		<div class="text-center">
-			<%= link_to(image_tag("paypal.png"), "https://www.paypal.com/", :id => "paypal", :title =>"PayPal") %>
-			<%= link_to(image_tag("facebook_icon.png"), "https://www.facebook.com/cardatraining", :id => "facebook", :title =>"Facebook") %>
-    			<ul class="nav nav-pills center-pills">
-      				<li class="active"><%= link_to "Home",    root_path %></li>
-      			  	<li class="active"><%= link_to "Training Programs",    training_programs_path %></li>
-      			  	<li class="active"><%= link_to "About the Trainer",    about_path %></li>
-      			  	<li class="active"><%= link_to "Contact",    contact_path %></li> 
-			</ul>
-			<p>&#169; All Rights Reserved by Ronnie Carda</p>
-			<p>Website Designed by Dan Yachcik</p>
+<div class="container padding-10-px" id="footerDiv">
+	<div class="row-fluid jumbotron">
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 text-center padding-10-px">
+			<%= image_tag("FB_FindUsOnFacebook-100.png") %>
 		</div>
-  	</nav>
-</footer>
+		
+		<div class="col-xs-12 col-xs-12 col-md-8 col-lg-8 text-center padding-10-px">
+			<h5>&#169; All Rights Reserved by Ronnie Carda<br />
+				Website Designed by Dan Yachcik</h5>	
+		</div>
+		
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 text-center padding-10-px">
+			<%= image_tag("ppal.jpg") %>
+		</div>
+	</div>
+</div>
+
+

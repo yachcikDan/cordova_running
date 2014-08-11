@@ -2,14 +2,15 @@
 @import "bootstrap";
 
 //Contains the header nav links, logo and address in one row
-html {
-	background-color: #000;
-}
 
 body {
-	background: url("/assets/navbar_background.png") no-repeat center;
+	background: url("/assets/pebbles_rocks_stones.jpg") no-repeat center;
 	background-size: cover;
 	padding-bottom: 60px;
+}
+
+.padding-10-px {
+	padding-top: 10px;
 }
 
 #artContainer {
@@ -59,17 +60,9 @@ body {
 	padding-top: 20px;
 }
 
-.facebook-paypal-links {
-	padding: 20px;
-}
-
 #location {
 	color: white;
 	letter-spacing: 3px;
-}
-
-table {
-	float: left;
 }
 
 .tabContentHeadings {
@@ -88,5 +81,10 @@ table {
 
 #silhouette {
 	padding-top: 10px;
+}
+
+#footerDiv {
+	background-color:  #fff;
+	padding-top: 20px;
 }
 
