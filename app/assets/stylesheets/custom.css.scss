@@ -1,10 +1,8 @@
 
 @import "bootstrap";
 
-//Contains the header nav links, logo and address in one row
-
 body {
-	background: url("/assets/pebbles_rocks_stones.jpg") no-repeat center;
+	background: url("/assets/navbar_background.png") no-repeat center;
 	background-size: cover;
 	padding-bottom: 60px;
 }
@@ -14,9 +12,9 @@ body {
 }
 
 #artContainer {
-	background-color: #000;
-	//background: url("/assets/asphalt_texture430.jpg") no-repeat center;
-	//background-size: cover;
+	//background-color: #000;
+	background: url("/assets/header_background.png") no-repeat center;
+	background-size: cover;
 	padding-top: 10px;
 }
 
@@ -47,7 +45,7 @@ body {
 
 //On hover changes to color
 .navbar-default .navbar-collapse .navbar-nav > li > a:hover {
-	color: #5bc0de;
+	color: #262262;
 }
 
 /*Home Page stylings*/
@@ -65,8 +63,18 @@ body {
 	letter-spacing: 3px;
 }
 
-.tabContentHeadings {
+#tabContentHeading1 {
+	background-color: #428bca;
+	color: #fff;
+}
+
+#tabContentHeading2 {
 	background-color: #5cb85c;
+	color: #fff;
+}
+
+#tabContentHeading3 {
+	background-color: #d9534f;
 	color: #fff;
 }
 
