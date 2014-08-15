@@ -2,13 +2,16 @@
 
 <div class="container mainContainer">
 	<div class="row-fluid">
-		<div class="jumbotron" id="contactDiv">
-			<h4 class="col-xs-12 col-sm-12 col-md-9 col-lg-9 text-center">For more information about 
+		<div class="jumbotron col-xs-12 col-sm-12 col-md-9 col-lg-9 text-center" id="contactDiv">
+			<h4 class="lead">For more information about 
 				Next Level Distance Running please email Ronnie Carda at:
 				<%= mail_to('Ronnie@cardarunning.com') %>
 			</h4>
-			<%= image_tag("tortoise_hare.PNG", :class => "col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center" ) %>
-		</div>		
+		</div>
+		<div class col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center>	
+			<%= image_tag("tortoise_hare.PNG", 
+			:class => "col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center" ) %>
+		</div>	
 	</div>
 </div>
 
