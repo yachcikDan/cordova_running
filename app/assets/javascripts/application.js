@@ -16,6 +16,7 @@
 //= require twitter/bootstrap
 //= require jquery.lettering
 //= require jquery.textillate
+//= require_tree .
 (function($) {
 	$(document).ready(function () {
 		$("#homestyle a").click(function (e) {

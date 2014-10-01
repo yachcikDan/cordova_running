@@ -1,5 +1,5 @@
+/*Application Stylings*/
 
-@import "bootstrap";
 
 body {
 	background: url("/assets/navbar_background.png") no-repeat center;
@@ -15,18 +15,9 @@ body {
 	//background-color: #000;
 	background: url("/assets/header_background.png") no-repeat center;
 	background-size: cover;
-	padding-top: 10px;
+	padding-top: 60px;
 }
 
-//Navbar
-.navbar {
-	background-color: transparent;
-	border: none;
-}
-
-.navbar-toggle {
-	background-color: #fff;
-}
 
 //The NLDR logo inside the div
 #art {
@@ -37,15 +28,8 @@ body {
 	color: #fff;
 }
 
-//changes the default color of the header nav links to white
-.navbar-default .navbar-collapse .navbar-nav > li > a {
-	color: #fff;
-	text-shadow: none;
-}
-
-//On hover changes to color
-.navbar-default .navbar-collapse .navbar-nav > li > a:hover {
-	color: #262262;
+.margin-auto {
+	margin: auto;
 }
 
 /*Home Page stylings*/
